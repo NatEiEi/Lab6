@@ -14,6 +14,7 @@
     pthread_create(&tid, &attr, childRunner, argv[1]);
     
     //thread parent
+    int msum = 0;
     for (int i = 1; i <= atoi(argv[1]); i++)
         msum +=i;
 
