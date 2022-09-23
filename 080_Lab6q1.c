@@ -3,7 +3,6 @@
  #include <stdlib.h>
 
  int csum; // ประกาศเพื่อให้เป็น global
- int msum;
  void *childRunner(void *param);
 
  int main(int argc, char *argv[]) {
